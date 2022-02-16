@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pizza Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Pacifico&family=Source+Code+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <form>
+            <table> 
+                <h1>Pizza Order</h1>
+                <hr>
+                <tr>  
+                    <td>
+                        <label for="first_name">Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="first_name" name="first_name" class="field">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pizza_topping">Pizza Topping</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="pizza_topping" value="Supreme" >Supreme <br>
+                        <input type="radio" name="pizza_topping" value="Vegetarian">Vegetarian <br>
+                        <input type="radio" name="pizza_topping" value="Hawaiian">Hawaiian <br>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pizza_sauce">Pizza Sauce</label>
+                    </td>
+                    <td>
+                        <select name="pizza_sauce" class="field">
+                            <option value="Tomato">Tomato</option><br>
+                            <option value="Hot Sauce">Hot Sauce</option><br> 
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="Optional_Extras">Optional Extras</label>
+                    </td>
+                    <td id="right">
+                        <input type="checkbox" name="Extra_Cheese" value="Extra_Cheese"> Extra Cheese <br>
+                        <input type="checkbox" name="Optional Extras" value="apple"> Gluten Free base <br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="delivery_instructions">Delivery Instructions</label>
+                    </td>
+                    <td>
+                        <textarea name="comments" id="comments" row="6" col="6"></textarea> 
+                        <br>
+                    </td>
+                </tr>
+            </table>
+            <form>
+                <input type="submit" value="Send my Order" class="text3 submit-button">
+            </form>
+           
+        </form>
+
+    </body>
+</html>

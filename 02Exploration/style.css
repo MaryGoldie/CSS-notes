@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100&display=swap" rel="stylesheet");
+
+p {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-size: 20%;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  background-color: red;
+  margin: 50px;
+  padding: 20px;
+  border: 1px sold black;
+}

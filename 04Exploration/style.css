@@ -1,0 +1,34 @@
+body {
+  background-image: url("background.jpg");
+}
+
+.group {
+  background-color:blanchedalmond;
+  width: 500px;
+  color:black;
+  padding: 40px;
+  border-radius: 5px;
+  margin:auto;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.field {
+  width:300px;
+  padding:10px;
+}
+
+.submit-button {
+  background-color: darkorange;
+  width: 500px;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.table {
+  width:1000px;
+}
